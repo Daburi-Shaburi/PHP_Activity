@@ -27,12 +27,12 @@ $passStatus = ($averageGrade >= $passingGrade) ? 'passed' : 'failed';
 </head>
 <body>
 
-<h2>Dashboard</h2>
-
-<p>
+<h2>
     Hello <strong><?= h($_SESSION['name']) ?></strong>
     from <strong><?= h($_SESSION['section']) ?></strong>! <br><br>
+</h2>
 
+<p>
     Your final grade in <strong><?= h($_SESSION['subject']) ?></strong>
     is <strong><?= number_format($averageGrade, 2) ?></strong>. <br><br>
 
@@ -43,3 +43,4 @@ $passStatus = ($averageGrade >= $passingGrade) ? 'passed' : 'failed';
 
 </body>
 </html>
+
