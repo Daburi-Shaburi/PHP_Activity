@@ -39,8 +39,7 @@ $passStatus = ($averageGrade >= $passingGrade) ? 'passed' : 'failed';
     This means you have <strong><?= h($passStatus) ?></strong>.
 </p>
 
-<a href="logout.php">Logout</a>
-
 </body>
 </html>
+
 
